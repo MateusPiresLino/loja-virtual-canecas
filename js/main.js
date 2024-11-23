@@ -4,14 +4,14 @@ $(document).ready(function() {
 
         $('html, body').animate({
             scrollTop: $('#Produto').offset().top
-        }, 1500);
+        }, 1000);
     })
 
     $('.container_sobre, container_sobre').hide();
     
 
     $('.slide_sobre').click(function() {
-        $('.container_sobre').slideToggle(1500)
+        $('.container_sobre').slideToggle(1000)
     })
 
     $('.menu_hamburguer').click(function() {
